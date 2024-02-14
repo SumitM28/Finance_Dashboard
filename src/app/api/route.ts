@@ -1,6 +1,5 @@
 import connectMongoDB from "@/libs/database"
 import KPI from "@/models/KPI";
-import Topic from "@/models/topics"
 export async function GET(req:Request, res:Response){
 
   try {
