@@ -20,7 +20,7 @@ const inter = Inter({ subsets: ["latin"] });
 //   description: "Finance Dashboard",
 // };
 
-export const store = configureStore({
+const store = configureStore({
   reducer: { [api.reducerPath]: api.reducer },
   middleware: (getDefault) => getDefault().concat(api.middleware),
 });
